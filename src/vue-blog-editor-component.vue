@@ -9,6 +9,7 @@
 import CKEditor from '@ckeditor/ckeditor5-vue2';
 import CkBuild from './ckeditor'
 
+
 export default {
   data() {
     return {
