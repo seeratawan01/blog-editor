@@ -101,6 +101,7 @@ Editor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
+			'|',
 			'bold',
 			'italic',
 			'underline',
@@ -118,6 +119,7 @@ Editor.defaultConfig = {
 			'|',
 			'imageUpload',
 			'mediaLibrary',
+			'|',
 			'alignment',
 			'blockQuote',
 			'link',
@@ -159,10 +161,4 @@ Editor.defaultConfig = {
 
 
 
-export default (config) => {
-	Editor.defaultConfig = {
-		...Editor.defaultConfig,
-		...config
-	}
-	return Editor;
-};
+export default Editor;
