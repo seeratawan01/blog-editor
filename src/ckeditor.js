@@ -33,7 +33,7 @@ import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
+import MediaLibrary from './plugins/mediaLibrary';
 
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
@@ -89,7 +89,7 @@ Editor.builtinPlugins = [
 	Table,
 	Underline,
 	WordCount,
-	MediaEmbed,
+	MediaLibrary,
 	PasteFromOffice,
 	FindAndReplace,
 	HorizontalLine
@@ -117,7 +117,7 @@ Editor.defaultConfig = {
 			'redo',
 			'|',
 			'imageUpload',
-			'mediaEmbed',
+			'mediaLibrary',
 			'alignment',
 			'blockQuote',
 			'link',
