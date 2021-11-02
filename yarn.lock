@@ -1166,6 +1166,16 @@
   dependencies:
     ckeditor5 "^31.0.0"
 
+"@ckeditor/ckeditor5-find-and-replace@^31.0.0":
+  version "31.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-find-and-replace/-/ckeditor5-find-and-replace-31.0.0.tgz#40543be1f0922d6adb0d39794a356160e919cf67"
+  integrity sha512-KnZigeYECgOOLKxYFUUD8/zXdLR/MTBz+6kvb9md8R9HJtlpp7SRvyUL+IXrQ7vQ8Djf6lU9IVLOckDIeNlwqw==
+  dependencies:
+    "@ckeditor/ckeditor5-ui" "^31.0.0"
+    "@ckeditor/ckeditor5-utils" "^31.0.0"
+    ckeditor5 "^31.0.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-font@^31.0.0":
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-31.0.0.tgz#8ec686fb9544e7d0d9b68956aab7815cd8c8e073"
@@ -1177,6 +1187,13 @@
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-heading/-/ckeditor5-heading-31.0.0.tgz#a0eae16d9d5b0288b250596502a7e9b8f89815d4"
   integrity sha512-bAcNG2K7sZWxvTJTriof/lsR81o4QGbpaFcwj62QfTjYP+To5jlD4YhUIcCbg1YpiwlbJr8tv6PuWH6MkNh/5g==
+  dependencies:
+    ckeditor5 "^31.0.0"
+
+"@ckeditor/ckeditor5-horizontal-line@^31.0.0":
+  version "31.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-horizontal-line/-/ckeditor5-horizontal-line-31.0.0.tgz#4a01738e435474f4213b7430b235912711c39724"
+  integrity sha512-QBw34CAMZ3KDr69qJ+qlPoMx7nxkv0Z9NrN/ZkguFmFFI+Wa6SvQKw5qhu9f8T6cgGlkruDtXOGBWSoiEIPfUg==
   dependencies:
     ckeditor5 "^31.0.0"
 
@@ -1258,6 +1275,14 @@
     "@ckeditor/ckeditor5-core" "^31.0.0"
     "@ckeditor/ckeditor5-ui" "^31.0.0"
     "@ckeditor/ckeditor5-utils" "^31.0.0"
+
+"@ckeditor/ckeditor5-source-editing@^31.0.0":
+  version "31.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-source-editing/-/ckeditor5-source-editing-31.0.0.tgz#eec813af3fb6178631fbeb0a80960722b0f94150"
+  integrity sha512-PPy6Q0/+APKECexoDgzwj52obpow+PnEuoRFTaEspjgt11Dfw/YB7XjAnvuc2msehSkzDhEnDfsB0rPgVvvnzw==
+  dependencies:
+    "@ckeditor/ckeditor5-theme-lark" "^31.0.0"
+    ckeditor5 "^31.0.0"
 
 "@ckeditor/ckeditor5-table@^31.0.0":
   version "31.0.0"

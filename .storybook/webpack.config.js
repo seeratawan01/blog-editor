@@ -7,7 +7,7 @@ module.exports = {
 
     new CKEditorWebpackPlugin( {
       // See https://ckeditor.com/docs/ckeditor5/latest/features/ui-language.html
-      language: 'pl'
+      language: 'en'
     } )
   ],
 
